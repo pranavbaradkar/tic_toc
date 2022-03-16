@@ -1,0 +1,58 @@
+.container {
+  height: 50vw;
+  width: 80vw;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+}
+
+.tiles {
+  width: 30vw;
+  /* border: black 2px solid; */
+  margin: 5vh auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box {
+  cursor: pointer;
+  background-color: black;
+  border: rgb(255, 255, 255) 1px solid;
+  width: 10vw;
+  height: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.value {
+  color: white;
+  font-size: 5vh;
+  font-weight: 500;
+}
+
+.popUp {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 50vw;
+  height: 40vw;
+  overflow: visible;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  opacity: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.popUp button {
+  width: 100px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: black;
+  color: white;
+}

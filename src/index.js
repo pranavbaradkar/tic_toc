@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import NavBar from './navbar'
+import Tiles from './tiles'
 ReactDOM.render(
   <React.StrictMode>
-    <h1>My react application</h1>
+    <NavBar/>
+    <Tiles/>
   </React.StrictMode>,
   document.getElementById('root')
 );

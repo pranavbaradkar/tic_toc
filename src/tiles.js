@@ -82,6 +82,7 @@ const Tiles = function () {
         setWin(false) ; 
         settoggle(true) ; 
         setover(false); 
+        setIndex(-1) ; 
      },[count]) ;
 
      useEffect(()=> {
